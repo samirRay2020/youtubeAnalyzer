@@ -1,0 +1,15 @@
+{
+    "name":"youtubeAnalyzer",
+    "version":"0.0.1",
+    "manifest_version":2,
+    
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"icon.png"
+    },
+    "icons":{
+       "48":"icon.png"
+    },
+    "permissions":["activeTab","tabs"],
+    "content_security_policy": "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js; object-src 'self'"
+}
